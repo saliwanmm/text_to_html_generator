@@ -1,13 +1,13 @@
-# Login system in Python Django 
+# Text to HTML generator
 
 ## Description
 
-**This project you can use for any site with the login system**
+**Here you can convert the text and title of the future page into HTML page code, for this you need to log in**
 
 ## Technologies used in the project
 - Python
 - Django
-- MySQL
+- Postgresql
 - Docker
 - Docker-compose
 - Git

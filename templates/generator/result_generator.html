@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    {% if result_html == '' %}
+        <h1>Here will be your HTML page </h1>
+    {% else %}
+        <h1>Here is your HTML page </h1>
+        <div class="container">
+            <p>{{ result_html }}</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
